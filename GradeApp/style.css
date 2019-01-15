@@ -1,0 +1,132 @@
+/* Import Google Font */
+@import url(https://fonts.googleapis.com/css?family=Nunito+Sans);
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the tabs */
+.tabs {
+    overflow: hidden;
+    margin-left: 20px;
+    margin-bottom: -2px; // hide bottom border
+}
+
+.tabs ul {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+.tabs a{
+    float: left;
+    cursor: pointer;
+    padding: 12px 24px;
+    transition: background-color 0.2s;
+    border: 1px solid #ccc;
+    border-right: none;
+    background-color: #f1f1f1;
+    border-radius: 10px 10px 0 0;
+    font-weight: bold;
+}
+.tabs a:last-child { 
+    border-right: 1px solid #ccc;
+}
+
+/* Change background color of tabs on hover */
+.tabs a:hover {
+    background-color: #aaa;
+    color: #fff;
+}
+
+/* Styling for active tab */
+.tabs a.active {
+    background-color: #fff;
+    color: #484848;
+    /*            border-bottom: 2px solid #fff;*/
+    cursor: default;
+}
+
+/* Style the tab content */
+.tabcontent {
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px #e1e1e1;
+}
+
+body {
+    padding: 10px;
+}
+
+.sample-component {
+    padding: 10px;
+    background-color: #EDEDED;
+}
+
+
+html body {
+    background-color: #D3D3D3;
+    font-family: "Calibri", sans-serif;
+    color: #fff;
+}
+
+
+.container {
+    font-size: 15px; 
+    width: 50vw;
+    height: 100%;
+    margin: auto;
+    padding: 50px;
+    background: #2E4A62;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.25);
+    font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+    color: #888;
+    margin: 40px auto;
+    max-width: 1000px;; 
+    min-width: 420px;
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttonCenter{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px;
+    padding: 8px;
+}
+
+.textBox{
+    width: 25vw;
+    height: 5vh;
+    border-radius: 5px;
+    border-width: 1px;
+    padding: 5px;
+}
+
+.hoursBox{
+    width: 25vw;
+    height: 5vh;
+    border-radius: 5px;
+    border-width: 0px;
+    padding: 5px;
+}
+
+.selection{
+    width: 25vw;
+    height: 5vh;
+    padding: 5px;
+    border-radius: 5px;
+    border-width: 0px;
+    background-color: white;
+}
